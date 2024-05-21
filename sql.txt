@@ -1,0 +1,30 @@
+
+
+CREATE TABLE plantsf (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Plant_Name VARCHAR(50),
+    Scientific_Name VARCHAR(100) UNIQUE,
+    Common_Name VARCHAR(100),
+    Family_Name VARCHAR(100),
+    Uses VARCHAR(500)
+);
+
+
+CREATE TABLE user (
+    User_Id INT PRIMARY KEY AUTO_INCREMENT,
+    Scientific_Name VARCHAR(100),
+    Latitude DECIMAL(10, 8),
+    Longitude DECIMAL(11, 8),
+    Date_found DATE,
+    Presence BOOLEAN,
+    User_id_updated INT,
+    FOREIGN KEY (Scientific_Name) REFERENCES plants(Scientific_Name)
+);
+
+INSERT INTO plantsf (ID,Plant_Name,Scientific_Name,common_name,Family_Name,Uses)
+VALUES 
+(1,"Arali","Fatsia japonica","Ghee Kunvar","Araliaceae","Used in traditional medicine for treating coughs, colds, and arthritis.The leaves can be brewed into a tea or used in poultices for arthritis pain relief."),
+    (2,"Asoka","Polyalthia longifolia","Asoka","ANNONACEAE","The her is useed in inflamatory swellings, urinary calculi, boils, strangury. Its Ash is mixed with pepper and applied in boils and ulcers.Pounded leaves are useful in Poultice and inflamatory swellins."),
+    (3,"Badipala","Terminalia bellirica","Baheda","Combretaceae","Used in Ayurvedic medicine for respiratory issues, digestive disorders, and as a rejuvenating tonic.Often used in combination with other herbs like amla and haritaki in Ayurvedic formulations for digestive health."),
+    (4,"Balloon Vine","Cardiospermum halicacabum","Balloon Plant","Sapindaceae","Traditionally used for its anti-inflammatory and analgesic properties, and to treat skin conditions.The leaves can be crushed and applied topically to the affected area for skin conditions like eczema or insect bites.");
+
