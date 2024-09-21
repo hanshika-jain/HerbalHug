@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "herbalhug",
+  "private_key_id": "2e5ee096d1c14cc7fc2636b0eb8b33e6206a33b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDbobUlfkHcMZyN\n42j16ush/TrHHaXA8zm12ZrXBk7XI0EkbbmqDhtO1m+lXMdgbuqN/4HPdEQUESB6\nR1JkRGckJP3KisaphKowzL55xy+mISsQF2gUuqpv12xqcIhbri1KADU6kemUCk75\ny+gJejxZaAnErcZgHOkbBuhJESTWvYD1WL6UmS2NoJ8RxgBPW2gWkiZ6H9QXFG8H\nPo8lUA8N115a6alFWw7KRETMsu+nruWs0uOPnHNVw8y4XuEIRj9udhj9KmZJ+IOb\nYVFrjsPB7bzIQ5KuisCv92nfkc7Anofchp8WutmSF0mvTQ4hgMbUCFnXB6awocRD\n++Iy26qDAgMBAAECggEAGcWSYNloDK4CTatQftbM4NqllzAf6ecV2lmz78+s2FV/\nMzFFltz75awyQp2t7t9lBOTlTGdmBlLHfwG30HiEVSXwD+BpP61dCR06q/CBuK/u\nAn/fSzC83M3S9MnKqQi5sL7F1YnB9l31TB4vVqQHc9hKQ9ATqzsz5o4mG04jMVKo\npotK4x1tQcWlNYuK6PqYbkJpaeUV8ol5xEFXH7vbWu++i2IundKCunD1TYHsqr9z\nznztNTpW12C3+7x74zfuyHAnojJmloZto1aHakl4NE96jHICPkdxF70XWQZ1wii3\nYsKiguDKStAKjXWy9tIzsoopIAMWS8IPEIU3H97/5QKBgQDy62uhMX3bRI+SXm/A\nDUeNxPu1bzjT0uhh7lsEtwoOmXM81r4hwNT5G6PUJTgv1i4vN3B1RZYPfsPWDliv\nT4ZKb2xe0lq2P9PbRDu5yxkGBtdPgZ6B/CmgFxRZN/yS71o82+ywkairwD3eXdVy\nMY1OBr3zcjxftm/PMln8G1vFNwKBgQDndUT008ZfGchOwbnkj+bxa7VVc8Tj7XCA\nHAf2lcnXSF+1qnkPYGaTIPgZZg2Pa8+q4aOTshMU/hcuju7xbvFCJJLe/XbwqX+U\n71ysC3dwberAH9a0Tzt1kU67EzxY8Qw6EH8JOnzLFJEH2CWv0N1M9Rv71DvhCLsS\nEoFZIY3rFQKBgAN1UInx723Asx6NU5/zUHJ3PHIfzDpPxVknkIonpPACRT63e+t1\nGFMXjqSFhyA/N1cavfIddH5x+o3AlIiiZDIJFgzfh8UScYyskwEZIBkS3dvW54/I\nLDuIOJTwlBrvZ2R4aQ02daVETl0tDs3aYL2coPWnSa6/JSZY/Cj3pr3PAoGBAINp\nYGpEprct8z1L3lg3n55oUb8fiKUEFUCXKapF5yA0tip1jGA/kl1sdZAuEfrg8joJ\n/A6KJy1fChhkDKPFInM0QrMaY2JGSepscEg6Bmkt7v9/1C3xYkfg5Ttvs26oBRIe\ndZHuxBWlKqaygMsuocbkzyuOlySwCU48dXX+iA31AoGARN/CwgcsJrckeNVFNBA7\nS+i+swwhJrAfu2hQUhmvbIYEFnF//SPDk2QX8lOFA+CDei+4SRlcqYfEtSz3AgR3\n7O2jNUDbItjX0r+nHkfBzSNQrQtkPwOTRGo8K3Z25WGEteecNnsIh/coljUPvRUn\nZ4jH2EifYbKFR7+cQTu3Ptc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "herbalhug@herbalhug.iam.gserviceaccount.com",
+  "client_id": "110672676048385694854",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/herbalhug%40herbalhug.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
