@@ -89,11 +89,11 @@ def handle_chat(question):
         
         # Check for scientific name related question
         elif "scientific name" in question.lower():
-            answer = f"The scientific name of {plant_name} is 🌱 {result[0][1]}."
+            answer = f"The scientific name of {plant_name} is 🌱 {result[0][2]}."
         
         # Check for family name related question
         elif "family name" in question.lower():
-            answer = f"The family name of {plant_name} is *{result[0][3]}*."
+            answer = f"The family name of {plant_name} is *{result[0][4]}*."
         
         # Default response with plant information
         else:
@@ -207,7 +207,7 @@ with col2:
                 if plant_info:
                     st.subheader('🌱 Plant Information')
                     for info in plant_info:
-                        st.write(f"*Plant Name: {info[0]}, **Scientific Name: {info[1]}, **Common Name: {info[2]}, **Family Name: {info[3]}, **Uses*: {info[4]}")
+                       st.write(f"**Plant Name**: {info[0]}, **Scientific Name**: {info[1]}, **Common Name**: {info[2]}, **Family Name**: {info[3]}, **Uses**: {info[4]}")
                 else:
                     st.warning('No information found for the identified plant in the database.')
             else:
